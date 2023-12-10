@@ -1,0 +1,15 @@
+
+.calendar-wrapper{
+  margin: 100px auto 0;
+  max-width: 719px;
+}
+
+.calendar-wrapper .calendar-body{
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 15px rgba(0, 0,0, .1);
+}
+.calendar{
+  max-width: 357px;
+  width: 100%;
+}

@@ -1,0 +1,59 @@
+.calendar-picker{
+  display: none;
+}
+.calendar-picker.active{
+  display: block;
+}
+
+.calendar-picker .picker{
+  border: .5px solid #969FA8;
+}
+
+.calendar-picker .picker .table-cell{
+  width: 51px ;
+  height: 51px;
+
+  background-color: #F6F6F6;
+  border: .5px solid #969FA8;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+}
+
+.calendar-picker .picker .table-cell div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #2961FE;
+}
+
+.calendar-picker .picker .thead-cell div{
+  color: #000;
+}
+
+.calendar-picker .picker .table-cell.not-current{
+  background-color: #fff;
+  border: none;
+}
+
+.calendar-picker .picker .datapicker-day:hover, .calendar-picker .picker .datapicker-day.active{
+  background-color: #2961FE;
+  cursor: pointer;
+}
+
+.calendar-picker .picker .datapicker-day:hover div, .calendar-picker .picker .datapicker-day.active div{
+  color: #fff;
+}
+
+.calendar-picker .picker .table-cell.not-current:hover{
+  background-color: #fff;
+  cursor: unset;
+}
+.calendar-picker .picker .between-select{
+  background-color: #D4F6FF;
+  cursor: unset;
+}
+
+
